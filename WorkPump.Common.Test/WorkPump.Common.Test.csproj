@@ -82,6 +82,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Collections\ImmutableHashDictionaryFactoryTests.cs" />
+    <Compile Include="Collections\ImmutableHashDictionaryTests.cs" />
     <Compile Include="EnumerableAssertions.cs" />
     <Compile Include="Extensions\EnumerableExtensionsTests.cs" />
     <Compile Include="Jobs\JobDefinitionBaseTests.cs" />

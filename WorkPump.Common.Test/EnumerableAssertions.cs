@@ -10,5 +10,11 @@ namespace Shouldly
             => items.ShouldSatisfyAllConditions(
                 items.Select(item => new Action(() => assertion.Invoke(item)))
                     .ToArray());
+
+        public static void ShouldBeSet<T>(this IEnumerable<T> actual, IEnumerable<T> expected)
+            => actual.ShouldBe(expected, ignoreOrder: true);
+
+        public static void ShouldBeSequence<T>(this IEnumerable<T> actual, IEnumerable<T> expected)
+            => actual.ShouldBe(expected, ignoreOrder: false);
     }
 }
