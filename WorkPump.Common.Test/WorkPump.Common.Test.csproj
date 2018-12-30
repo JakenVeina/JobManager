@@ -84,12 +84,14 @@
   <ItemGroup>
     <Compile Include="Collections\ImmutableHashDictionaryFactoryTests.cs" />
     <Compile Include="Collections\ImmutableHashDictionaryTests.cs" />
+    <Compile Include="EntityBaseTests.cs" />
     <Compile Include="EnumerableAssertions.cs" />
     <Compile Include="Extensions\EnumerableExtensionsTests.cs" />
     <Compile Include="Jobs\JobDefinitionBaseTests.cs" />
     <Compile Include="Messaging\MessengerTests.cs" />
     <Compile Include="MoqAssertions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RepositoryBaseTests.cs" />
     <Compile Include="TestCases.cs" />
     <Compile Include="WorkItems\WorkItemDefinitionBaseTests.cs" />
   </ItemGroup>
